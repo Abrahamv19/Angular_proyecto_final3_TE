@@ -22,8 +22,9 @@ export class UsersDialogComponent {
       name: ['', [Validators.required, Validators.minLength(2), Validators.maxLength(15)]],
       lastName: ['', [Validators.required, Validators.minLength(2), Validators.maxLength(15)]],
       email: ['', [Validators.required, Validators.email]],
-      // course: ['', Validators.required],
-      // classYear: ['', Validators.required],
+      // password: ['', Validators.required],
+      // token: ['', Validators.required],
+      // role: ['', Validators.required],
     });
 
     if(this.user) {

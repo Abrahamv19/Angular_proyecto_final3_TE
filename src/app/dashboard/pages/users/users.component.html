@@ -1,7 +1,7 @@
  <h1 fontWeight="bolder" appHeadline>Usuarios</h1>
 
 <div class="d-flex justify-content-end mb-3">
-<button (click)="openUsersDialog()" mat-flat-button color='accent'>
+<button (click)="addUser()" mat-flat-button color='accent'>
     <mat-icon>person_add</mat-icon>
     Agregar Usuario
 </button>
@@ -9,10 +9,44 @@
 
 <!-- {{ testUser | fullname: true: 11: 'argumento' }} -->
 
+<!-- <app-users-table [dataSource]="(users$ | async) || []"
+(editUser)="onEditUser($event)"
+>
+</app-users-table> -->
+
+
+<!-- OJOOOOOO ACTIVAR ONDELETE -->
+<app-users-table [dataSource]="(users$ | async) || []"
+(editUser)="onEditUser($event)"
+(deleteUser)="onDeleteUser($event)"
+>
+</app-users-table>
+
+<!-- <app-users-table [dataSource]="(users$ | async) || []"
+(editUser)="onEditUser($event)"
+(deleteUser)="onDeleteUser($event)">
+</app-users-table> -->
+
+<!-- <router-outlet></router-outlet> -->
+
+
+
+
+<!-- OPCION VIEJA -->
+
+<!-- <h1 fontWeight="bolder" appHeadline>Usuarios</h1>
+
+<div class="d-flex justify-content-end mb-3">
+<button (click)="openUsersDialog()" mat-flat-button color='accent'>
+    <mat-icon>person_add</mat-icon>
+    Agregar Usuario
+</button>
+</div>
+
+
+
 <app-users-table [dataSource]="users"
 (editUser)="onEditUser($event)"
 (deleteUser)="onDeleteUser($event)">
-</app-users-table>
-
-<!-- <router-outlet></router-outlet> -->
+</app-users-table> -->
 

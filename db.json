@@ -8,6 +8,33 @@
       "token": "asdfgh",
       "role": "admin",
       "id": 1
+    },
+    {
+      "name": "Ignacio",
+      "lastName": "Martinez",
+      "email": "ignacio@g.com",
+      "password": "456",
+      "token": "mnbv",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "name": "VALERI",
+      "lastName": "MOLINA",
+      "email": "VALE@G.COM",
+      "id": 3
+    },
+    {
+      "name": "ISAAC",
+      "lastName": "ARANA",
+      "email": "ISAAC@G.COM",
+      "id": 4
+    },
+    {
+      "name": "IGNACIO",
+      "lastName": "ALVAREZ",
+      "email": "IGNA@G.COM",
+      "id": 5
     }
   ],
   "courses": [],
