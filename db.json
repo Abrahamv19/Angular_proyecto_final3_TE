@@ -23,18 +23,6 @@
       "lastName": "MOLINA",
       "email": "VALE@G.COM",
       "id": 3
-    },
-    {
-      "name": "ISAAC",
-      "lastName": "ARANA",
-      "email": "ISAAC@G.COM",
-      "id": 4
-    },
-    {
-      "name": "IGNACIO",
-      "lastName": "ALVAREZ",
-      "email": "IGNA@G.COM",
-      "id": 5
     }
   ],
   "courses": [],
